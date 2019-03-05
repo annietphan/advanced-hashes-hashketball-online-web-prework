@@ -180,5 +180,9 @@ def player_numbers(teamname)
 end
 
 def player_stats(playername)
+hash.each do |detail, playerinfo|
+playerinfo.each do |key, stats|
+  if playername == key
+    return stats
 
 end
