@@ -168,7 +168,7 @@ def player_numbers(teamname)
           info.each do |player, stats|
             stats.each do |stat, int|
               if stat == :number
-                jersey_numbers << int.to_i
+                jersey_numbers << int
               end
             end
           end
