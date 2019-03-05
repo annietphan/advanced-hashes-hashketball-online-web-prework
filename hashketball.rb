@@ -185,7 +185,7 @@ def player_stats(playername)
     values.each do |detail, playerinfo|
       playerinfo.each do |key, stats|
         if playername == key
-          return stats
+          return hash[location][values][detail][playername]
         end
       end
     end
