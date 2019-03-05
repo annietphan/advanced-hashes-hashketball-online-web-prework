@@ -176,5 +176,5 @@ def player_numbers(teamname)
       end
     end
   end
-  return array
+  return jersey_numbers
 end
