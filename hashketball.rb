@@ -180,6 +180,7 @@ def player_numbers(teamname)
 end
 
 def player_stats(playername)
+  hash = game_hash
   hash.each do |location, values|
     values.each do |detail, playerinfo|
       playerinfo.each do |key, stats|
